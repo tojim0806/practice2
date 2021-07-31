@@ -1,12 +1,12 @@
 public class Book extends TangibleAsset{
-	private String isbn;
+	private String isbl;
 
-	public Book (String name, int price, String color, String isbn){
+	public Book (String name, int price, String color, String isbl){
 		super(name,price,color);
-		this.isbn = isbn;
+		this.isbl = isbl;
 	}	
-	public String getIsbn (){
+	public String getIsbl (){
 		System.out.println("This is a misstake")
-		return this.isbn;
+		return this.isbl;
 	}
 }
