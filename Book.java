@@ -5,8 +5,11 @@ public class Book extends TangibleAsset{
 		super(name,price,color);
 		this.isbl = isbl;
 	}	
-	public String getIsbl (){
-		System.out.println("This is a misstake")
-		return this.isbl;
+
+
+	public String getIsbn (){
+		System.out.println("This is a little difference")
+		return this.isbn;
+
 	}
 }
